@@ -1811,7 +1811,7 @@ for linha in entr.readlines():
  else:
   print(linha)
 entr.close()'''
-larg=79
+'''larg=79
 entr=open("entrada.txt")
 for linha in entr.readlines():
     if linha[0]=="=":
@@ -1826,14 +1826,8 @@ for linha in entr.readlines():
         print(linha[1:].center(larg))
     else:
         print(linha)
-    entr.close()
-'''saida=open("paginado.txt","w")
-par=open("par.txt","r")
-for linha in par.readlines():
-    if len(linha)>76:
-        print("\n")
-    if linha>59:
-        print()'''
+    entr.close()'''
+
 
 
 
